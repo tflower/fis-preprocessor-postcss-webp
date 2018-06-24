@@ -1,0 +1,403 @@
+{
+    "res": {
+        "demo/demo.css": {
+            "uri": "/demo/demo.css",
+            "type": "css"
+        },
+        "index.js": {
+            "uri": "/index.js",
+            "type": "js",
+            "deps": [
+                "postcss",
+                "webptran.js"
+            ]
+        },
+        "node_modules/ansi-styles/index.js": {
+            "uri": "/node_modules/ansi-styles/index.js",
+            "type": "js",
+            "deps": [
+                "color-convert"
+            ]
+        },
+        "node_modules/chalk/index.js": {
+            "uri": "/node_modules/chalk/index.js",
+            "type": "js",
+            "deps": [
+                "escape-string-regexp",
+                "ansi-styles",
+                "supports-color",
+                "node_modules/chalk/templates.js"
+            ]
+        },
+        "node_modules/chalk/templates.js": {
+            "uri": "/node_modules/chalk/templates.js",
+            "type": "js"
+        },
+        "node_modules/color-convert/conversions.js": {
+            "uri": "/node_modules/color-convert/conversions.js",
+            "type": "js",
+            "deps": [
+                "color-name"
+            ]
+        },
+        "node_modules/color-convert/index.js": {
+            "uri": "/node_modules/color-convert/index.js",
+            "type": "js",
+            "deps": [
+                "node_modules/color-convert/conversions.js",
+                "node_modules/color-convert/route.js"
+            ]
+        },
+        "node_modules/color-convert/route.js": {
+            "uri": "/node_modules/color-convert/route.js",
+            "type": "js",
+            "deps": [
+                "node_modules/color-convert/conversions.js"
+            ]
+        },
+        "node_modules/color-name/index.js": {
+            "uri": "/node_modules/color-name/index.js",
+            "type": "js"
+        },
+        "node_modules/escape-string-regexp/index.js": {
+            "uri": "/node_modules/escape-string-regexp/index.js",
+            "type": "js"
+        },
+        "node_modules/has-flag/index.js": {
+            "uri": "/node_modules/has-flag/index.js",
+            "type": "js"
+        },
+        "node_modules/postcss/gulpfile.js": {
+            "uri": "/node_modules/postcss/gulpfile.js",
+            "type": "js",
+            "deps": [
+                "gulp",
+                "del",
+                "gulp-sourcemaps",
+                "gulp-changed",
+                "gulp-babel",
+                "gulp-json-editor",
+                "fs",
+                "run-sequence",
+                "./build",
+                "postcss-parser-tests/real",
+                "node_modules/postcss/lib/processor.js",
+                "./package"
+            ]
+        },
+        "node_modules/postcss/lib/at-rule.js": {
+            "uri": "/node_modules/postcss/lib/at-rule.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/container.js"
+            ]
+        },
+        "node_modules/postcss/lib/comment.js": {
+            "uri": "/node_modules/postcss/lib/comment.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/node.js"
+            ]
+        },
+        "node_modules/postcss/lib/container.js": {
+            "uri": "/node_modules/postcss/lib/container.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/declaration.js",
+                "node_modules/postcss/lib/comment.js",
+                "node_modules/postcss/lib/node.js",
+                "node_modules/postcss/lib/parse.js",
+                "node_modules/postcss/lib/rule.js",
+                "node_modules/postcss/lib/at-rule.js",
+                "node_modules/postcss/lib/root.js"
+            ]
+        },
+        "node_modules/postcss/lib/css-syntax-error.js": {
+            "uri": "/node_modules/postcss/lib/css-syntax-error.js",
+            "type": "js",
+            "deps": [
+                "supports-color",
+                "chalk",
+                "node_modules/postcss/lib/terminal-highlight.js"
+            ]
+        },
+        "node_modules/postcss/lib/declaration.js": {
+            "uri": "/node_modules/postcss/lib/declaration.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/node.js"
+            ]
+        },
+        "node_modules/postcss/lib/input.js": {
+            "uri": "/node_modules/postcss/lib/input.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/css-syntax-error.js",
+                "node_modules/postcss/lib/previous-map.js",
+                "path"
+            ]
+        },
+        "node_modules/postcss/lib/lazy-result.js": {
+            "uri": "/node_modules/postcss/lib/lazy-result.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/map-generator.js",
+                "node_modules/postcss/lib/stringify.js",
+                "node_modules/postcss/lib/warn-once.js",
+                "node_modules/postcss/lib/result.js",
+                "node_modules/postcss/lib/parse.js"
+            ]
+        },
+        "node_modules/postcss/lib/list.js": {
+            "uri": "/node_modules/postcss/lib/list.js",
+            "type": "js"
+        },
+        "node_modules/postcss/lib/map-generator.js": {
+            "uri": "/node_modules/postcss/lib/map-generator.js",
+            "type": "js",
+            "deps": [
+                "source-map",
+                "path"
+            ]
+        },
+        "node_modules/postcss/lib/node.js": {
+            "uri": "/node_modules/postcss/lib/node.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/css-syntax-error.js",
+                "node_modules/postcss/lib/stringifier.js",
+                "node_modules/postcss/lib/stringify.js",
+                "node_modules/postcss/lib/warn-once.js"
+            ]
+        },
+        "node_modules/postcss/lib/parse.js": {
+            "uri": "/node_modules/postcss/lib/parse.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/parser.js",
+                "node_modules/postcss/lib/input.js"
+            ]
+        },
+        "node_modules/postcss/lib/parser.js": {
+            "uri": "/node_modules/postcss/lib/parser.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/declaration.js",
+                "node_modules/postcss/lib/tokenize.js",
+                "node_modules/postcss/lib/comment.js",
+                "node_modules/postcss/lib/at-rule.js",
+                "node_modules/postcss/lib/root.js",
+                "node_modules/postcss/lib/rule.js"
+            ]
+        },
+        "node_modules/postcss/lib/postcss.js": {
+            "uri": "/node_modules/postcss/lib/postcss.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/declaration.js",
+                "node_modules/postcss/lib/processor.js",
+                "node_modules/postcss/lib/stringify.js",
+                "node_modules/postcss/lib/comment.js",
+                "node_modules/postcss/lib/at-rule.js",
+                "node_modules/postcss/lib/vendor.js",
+                "node_modules/postcss/lib/parse.js",
+                "node_modules/postcss/lib/list.js",
+                "node_modules/postcss/lib/rule.js",
+                "node_modules/postcss/lib/root.js"
+            ]
+        },
+        "node_modules/postcss/lib/previous-map.js": {
+            "uri": "/node_modules/postcss/lib/previous-map.js",
+            "type": "js",
+            "deps": [
+                "source-map",
+                "path",
+                "fs"
+            ]
+        },
+        "node_modules/postcss/lib/processor.js": {
+            "uri": "/node_modules/postcss/lib/processor.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/lazy-result.js"
+            ]
+        },
+        "node_modules/postcss/lib/result.js": {
+            "uri": "/node_modules/postcss/lib/result.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/warning.js"
+            ]
+        },
+        "node_modules/postcss/lib/root.js": {
+            "uri": "/node_modules/postcss/lib/root.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/container.js",
+                "node_modules/postcss/lib/lazy-result.js",
+                "node_modules/postcss/lib/processor.js"
+            ]
+        },
+        "node_modules/postcss/lib/rule.js": {
+            "uri": "/node_modules/postcss/lib/rule.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/container.js",
+                "node_modules/postcss/lib/list.js"
+            ]
+        },
+        "node_modules/postcss/lib/stringifier.js": {
+            "uri": "/node_modules/postcss/lib/stringifier.js",
+            "type": "js"
+        },
+        "node_modules/postcss/lib/stringify.js": {
+            "uri": "/node_modules/postcss/lib/stringify.js",
+            "type": "js",
+            "deps": [
+                "node_modules/postcss/lib/stringifier.js"
+            ]
+        },
+        "node_modules/postcss/lib/terminal-highlight.js": {
+            "uri": "/node_modules/postcss/lib/terminal-highlight.js",
+            "type": "js",
+            "deps": [
+                "chalk",
+                "node_modules/postcss/lib/tokenize.js",
+                "node_modules/postcss/lib/input.js"
+            ]
+        },
+        "node_modules/postcss/lib/tokenize.js": {
+            "uri": "/node_modules/postcss/lib/tokenize.js",
+            "type": "js"
+        },
+        "node_modules/postcss/lib/vendor.js": {
+            "uri": "/node_modules/postcss/lib/vendor.js",
+            "type": "js"
+        },
+        "node_modules/postcss/lib/warn-once.js": {
+            "uri": "/node_modules/postcss/lib/warn-once.js",
+            "type": "js"
+        },
+        "node_modules/postcss/lib/warning.js": {
+            "uri": "/node_modules/postcss/lib/warning.js",
+            "type": "js"
+        },
+        "node_modules/source-map/dist/source-map.debug.js": {
+            "uri": "/node_modules/source-map/dist/source-map.debug.js",
+            "type": "js"
+        },
+        "node_modules/source-map/dist/source-map.js": {
+            "uri": "/node_modules/source-map/dist/source-map.js",
+            "type": "js"
+        },
+        "node_modules/source-map/dist/source-map.min.js": {
+            "uri": "/node_modules/source-map/dist/source-map.min.js",
+            "type": "js"
+        },
+        "node_modules/source-map/lib/array-set.js": {
+            "uri": "/node_modules/source-map/lib/array-set.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/util.js"
+            ]
+        },
+        "node_modules/source-map/lib/base64-vlq.js": {
+            "uri": "/node_modules/source-map/lib/base64-vlq.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/base64.js"
+            ]
+        },
+        "node_modules/source-map/lib/base64.js": {
+            "uri": "/node_modules/source-map/lib/base64.js",
+            "type": "js"
+        },
+        "node_modules/source-map/lib/binary-search.js": {
+            "uri": "/node_modules/source-map/lib/binary-search.js",
+            "type": "js"
+        },
+        "node_modules/source-map/lib/mapping-list.js": {
+            "uri": "/node_modules/source-map/lib/mapping-list.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/util.js"
+            ]
+        },
+        "node_modules/source-map/lib/quick-sort.js": {
+            "uri": "/node_modules/source-map/lib/quick-sort.js",
+            "type": "js"
+        },
+        "node_modules/source-map/lib/source-map-consumer.js": {
+            "uri": "/node_modules/source-map/lib/source-map-consumer.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/util.js",
+                "node_modules/source-map/lib/binary-search.js",
+                "node_modules/source-map/lib/array-set.js",
+                "node_modules/source-map/lib/base64-vlq.js",
+                "node_modules/source-map/lib/quick-sort.js"
+            ]
+        },
+        "node_modules/source-map/lib/source-map-generator.js": {
+            "uri": "/node_modules/source-map/lib/source-map-generator.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/base64-vlq.js",
+                "node_modules/source-map/lib/util.js",
+                "node_modules/source-map/lib/array-set.js",
+                "node_modules/source-map/lib/mapping-list.js"
+            ]
+        },
+        "node_modules/source-map/lib/source-node.js": {
+            "uri": "/node_modules/source-map/lib/source-node.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/source-map-generator.js",
+                "node_modules/source-map/lib/util.js"
+            ]
+        },
+        "node_modules/source-map/lib/util.js": {
+            "uri": "/node_modules/source-map/lib/util.js",
+            "type": "js"
+        },
+        "node_modules/source-map/source-map.js": {
+            "uri": "/node_modules/source-map/source-map.js",
+            "type": "js",
+            "deps": [
+                "node_modules/source-map/lib/source-map-generator.js",
+                "node_modules/source-map/lib/source-map-consumer.js",
+                "node_modules/source-map/lib/source-node.js"
+            ]
+        },
+        "node_modules/supports-color/browser.js": {
+            "uri": "/node_modules/supports-color/browser.js",
+            "type": "js"
+        },
+        "node_modules/supports-color/index.js": {
+            "uri": "/node_modules/supports-color/index.js",
+            "type": "js",
+            "deps": [
+                "os",
+                "has-flag"
+            ]
+        },
+        "util.js": {
+            "uri": "/util.js",
+            "type": "js",
+            "deps": [
+                "child_process"
+            ]
+        },
+        "webptran.js": {
+            "uri": "/webptran.js",
+            "type": "js",
+            "deps": [
+                "postcss",
+                "path",
+                "fs",
+                "util.js"
+            ]
+        }
+    },
+    "pkg": {}
+}
