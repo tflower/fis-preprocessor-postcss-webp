@@ -1,5 +1,7 @@
 body {
-    background: url('./images/h5_bg2.jpg') no-repeat center;
+    background: url(./images/kv.jpg) no-repeat center;
+    color:red;
+    font-size: 12px;
 }
 
 .main{
@@ -9,11 +11,19 @@ body {
 }
 
 
+body .test{
+    color:red;
+    background: url('./images/lpl2018.jpg');
+
+}
 
 @keyframes go{
+
     from{
-        background: url('http://demos.hacks.mozilla.org/openweb/resources/images/logos/firefox-48.png')
+        opacity: 1;
+        background: url('./images/lpl2018.jpg')
     }
+
 
 
     to{
